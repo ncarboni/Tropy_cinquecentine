@@ -1,0 +1,70 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix cn: <https://ncarboni.github.io/Tropy_cinquecentine/schema#>.
+
+
+
+<https://ncarboni.github.io/Tropy_cinquecentine/schema#> a owl:Ontology;
+    vann:preferredNamespacePrefix "cn";
+    vann:preferredNamespaceUri <https://ncarboni.github.io/Tropy_cinquecentine/schema#>;
+    dc:title "Schema Cinquecentine"@en;
+    dc:description "Schema example to be used for the documentation of images from cinquecentine in Tropy"@en.
+
+
+cn:Printer a rdf:Property;
+    rdfs:label "Printer" ;
+    rdfs:comment "Person who print the edition"@en.
+
+cn:QuireMark a rdf:Property;
+    rdfs:label "Quire Mark" ;
+    rdfs:comment "Identifier of the Quire (sheet of paper)"@en.
+
+cn:PageNumber a rdf:Property;
+    rdfs:label "Page Number" ;
+    rdfs:comment "page number where the image have been found"@en.
+
+cn:Identifier a rdf:Property;
+    rdfs:label "Image Identifier" ;
+    rdfs:comment "identifier of the resource"@en.
+
+cn:ModelType a rdf:Property;
+    rdfs:label "Model Type" ;
+    rdfs:comment "model type identified"@en.
+
+
+cn:ConservationPlace
+    rdfs:label "Conservation Place" ;
+    rdfs:comment "Place where the documented object is preserved" .
+
+cn:ConservationPlace
+    rdfs:label "Conservation Institute" ;
+    rdfs:comment "Institute where the documented object is preserved" .
+
+cn:License
+    rdfs:label "License" ;
+    rdfs:comment "License associated to the resource" .
+
+cn:URL
+    rdfs:label "URL Resource" ;
+    rdfs:comment "URL of the resources in another repository" .
+
+cn:Description 
+    rdfs:label "Description";
+    rdfs:comment "Description of the resources".
+
+cn:TitleOfPoem
+    rdfs:label "Description";
+    rdfs:comment "Description of the resources".
+
+cn:TitleOfEdition
+    rdfs:label "Description";
+    rdfs:comment "Description of the resources".
+
+
+
+
+
+

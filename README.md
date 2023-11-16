@@ -1,2 +1,3 @@
-# Tropy_cinquecentine
-Repositories used for the course of Digital Images @UNIGE 
+# Tropy Vocabularies
+
+Repositories used to host the Tropy vocabulary for the course of Digital Images @UNIGE 
